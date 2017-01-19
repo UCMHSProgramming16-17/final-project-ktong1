@@ -1,6 +1,6 @@
 ## Data Ideas
 
-* Use previously created csvdata.py and energydata.csv for data on various energy sources
+* Use previously created csvdata.py and energydata.csv for data on various energy sources --> already done, will probabaly do this
 * Video game sales by year, by region, by revenue, etc. https://www.kaggle.com/gregorut/videogamesales
 * NASA Fermi Gamma Ray Burst emission data https://data.nasa.gov/external-dataset?datasetId=2irx-bnng
 
