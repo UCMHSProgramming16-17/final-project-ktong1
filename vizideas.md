@@ -8,4 +8,4 @@
 
 * Bar chart
 * Burtin.py thingy (?) http://bokeh.pydata.org/en/latest/docs/gallery/burtin.html
-* 
+* Interactive chart a la https://demo.bokehplots.com/apps/crossfilter with sliders
