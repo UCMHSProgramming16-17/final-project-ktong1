@@ -8,8 +8,8 @@ import csv
 df = pd.read_csv('energydata.csv')
 
 # plot graph
-plot_1 = Bar(df, 'Year/Month', values = 'Renewable Energy (kJ)', title = 'Renewable Energy by Month and Year', color = 'green')
+plot_1 = Bar(df, 'Year/Month', values = 'Natural Gas Energy (kJ)', title = 'Natural Gas Energy by Month and Year', color = 'black')
 
 # save
-output_file('energychart_bar_renewable.html')
+output_file('energychart_bar_naturalgas.html')
 save (plot_1)
