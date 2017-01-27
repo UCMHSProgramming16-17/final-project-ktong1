@@ -13,7 +13,7 @@ df.sort_values(by = 'Year/Month')
 print(df)
 
 # plot graph
-plot_1 = Scatter(df, x = 'Year/Month', y = 'Renewable Energy (kJ)', title = "Renewable Energy by Month and Year",
+plot_1 = Scatter(df, x = 'Year/Month', y = 'Renewable Energy (kJ)', color = 'Year', title = "Renewable Energy by Month and Year",
             xlabel = "Year-Month", ylabel = "Energy Produced (kJ)")
 
 # output file

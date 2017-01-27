@@ -8,7 +8,7 @@ import csv
 df = pd.read_csv('energydata.csv')
 
 # plot graph
-plot_1 = Bar(df, 'Year/Month', values = 'Nuclear Energy (kJ)', title = 'Nuclear Energy by Month and Year', color = 'yellow')
+plot_1 = Bar(df, 'Year/Month', values = 'Nuclear Energy (kJ)', group = 'Year', title = 'Nuclear Energy by Month and Year')
 
 # save
 output_file('energychart_bar_nuclear.html')
