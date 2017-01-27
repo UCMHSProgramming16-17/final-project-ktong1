@@ -1,5 +1,5 @@
 Notes:
-I couldn't figure out how to make the combined scatter graph in energychart.html not reversed.
+I couldn't figure out how to make the scatter graphs not reversed.
 
 Structure:
     1. csvdata.py, finds data, creates energydata.csv
