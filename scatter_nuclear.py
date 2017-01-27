@@ -11,7 +11,7 @@ df = pd.read_csv('energydata.csv')
 df.sort_values(by = 'Year/Month')
 
 # plot graph
-plot_1 = Scatter(df, x = 'Year/Month', y = 'Nuclear Energy (kJ)', color = 'Year', title = "Nuclear Energy by Month and Year",
+plot_1 = Scatter(df, x = 'Year/Month', y = 'Nuclear Energy (kJ)', color = 'black', title = "Nuclear Energy by Month and Year",
             xlabel = "Year-Month", ylabel = "Energy Produced (kJ)")
 
 # output file
